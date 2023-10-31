@@ -35,7 +35,7 @@
     <script src="https://kit.fontawesome.com/e0289a92c2.js" crossorigin="anonymous"></script>
     <!-------------------------------------------->
     <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-    <link rel="stylesheet" href="./styles/style.css">
+    <!-- <link rel="stylesheet" href="./styles/style.css"> -->
 
 </head>
 
@@ -43,17 +43,18 @@
     <!------------------------------>
     <!-- Your HTML Layout go here -->
     <!------------------------------>
-    
+
     <!-- our own navbar goes here -->
     <nav id="navbarPlaceholder"></nav>
 
     <!-- the body of your page goes here -->
     <!-- stuff -->
-    <div class="container text-center">
-        <img class="d-block mx-auto mb-4 responsive" src="./images/elmo.jpg" alt="" height="200">
-        <h1>Welcome to Saba's Hiking App!</h1>
-        <a href="login.html" class="btn btn-info" role="button">Log in</a>
-   </div>
+    <div class="container">
+        <h1><span id="hikeName"> Burnaby lake park trail </span></h1>
+        <img class="hike-img responsive" src="./images/BBY01.jpg"/>
+        <div id="details-go-here"></div>
+  </div>
+
     <!-- our own footer goes here-->
     <nav id="footerPlaceholder"></nav>
 
@@ -62,6 +63,7 @@
     <!---------------------------------------------->
     <script src="./scripts/firebaseAPI_TEAM99.js"></script>
     <script src="./scripts/skeleton.js"></script>
+    <script src="./scripts/eachHike.js"></script>
     <!-- <script src="./scripts/script.js"></script> -->
 
 </body>

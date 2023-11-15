@@ -34,7 +34,7 @@
     <!-- Other libraries and styles of your own -->
     <script src="https://kit.fontawesome.com/e0289a92c2.js" crossorigin="anonymous"></script>
     <!-------------------------------------------->
-    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
 
 </head>
@@ -53,7 +53,8 @@
         <h1><span id="hikeName">this hike</span></h1>
         <div class="position-relative">
             <img class="hike-img responsive" src="" alt="Hike photo">
-            <button class="btn btn-primary position-absolute bottom-0 end-0 m-3" onclick="saveHikeDocumentIDAndRedirect()">Write Review</button>
+            <button class="btn btn-primary position-absolute bottom-0 end-0 m-3"
+                onclick="saveHikeDocumentIDAndRedirect()">Write Review</button>
         </div>
     </div>
 
@@ -67,7 +68,7 @@
             </div>
         </div>
     </div>
-    
+
     <template id="reviewCardTemplate">
         <div class="card bg-secondary">
             <img class="card-img-top">
@@ -80,7 +81,8 @@
                 <p class="scrambled">placeholder</p>
                 <p class="flooded">placeholder</p>
                 <br>
-                <p class="description">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="description">This card has supporting text below as a natural lead-in to additional content.
+                </p>
             </div>
         </div>
     </template>
@@ -93,7 +95,7 @@
     <script src="./scripts/firebaseAPI_TEAM99.js"></script>
     <script src="./scripts/skeleton.js"></script>
     <script src="./scripts/eachHike.js"></script>
-    <!-- <script src="./scripts/script.js"></script> -->
+    <script src="./scripts/script.js"></script>
 
 </body>
 
